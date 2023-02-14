@@ -3,7 +3,7 @@ import logoImg from '../assets/images/logo/logo.png'
 import '../assets/css/slick.min.css'
 
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap'
-import { FaLongArrowAltDown } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLongArrowAltDown } from 'react-icons/fa'
 import { FaBars, FaSkype, FaFacebookF, FaTwitter } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import { Link as ReactLink } from 'react-router-dom'
@@ -25,7 +25,7 @@ export default function Header() {
                   <ReactLink to='/' className='nav-link'>
                     <div className='name'>
                       <h1>
-                        DR<span className='pc'>.</span>
+                        GM<span className='pc'>.</span>
                       </h1>
                     </div>
                   </ReactLink>
@@ -67,23 +67,23 @@ export default function Header() {
                     </Link>
                     <ul className='mb-0 menu-social pl-15'>
                       <li className='list-inline-item menu-border'>
-                        <a href='#'>
+                        <a href='https://github.com/gmartin1603'>
                           <i>
-                            <FaSkype />
+                            <FaGithub />
                           </i>
                         </a>
                       </li>
                       <li className='list-inline-item'>
-                        <a href='#'>
+                        <a href='https://www.facebook.com/george.martin.39904181'>
                           <i>
                             <FaFacebookF />
                           </i>
                         </a>
                       </li>
                       <li className='list-inline-item'>
-                        <a href='#'>
+                        <a href='https://www.instagram.com/country_coder/'>
                           <i>
-                            <FaTwitter />
+                            <FaInstagram />
                           </i>
                         </a>
                       </li>

@@ -49,15 +49,15 @@ export default function slider() {
                     <div className='slider-left'>
                       <div className='name'>
                         <h1>
-                          David <br /> Rakosi<span className='pc'>.</span>
+                          George <br /> Martin<span className='pc'>.</span>
                         </h1>
                       </div>
                       <div className='dash'></div>
                       <div className='social-links mb-40'>
-                        <a href='https://www.instagram.com'>Instagram</a> |{' '}
-                        <a href='https://www.linkedin.com'>LinkedIn</a> <br />
-                        <a href='https://behance.net'>Behance</a> |{' '}
-                        <a href='https://dribbble.com'>Dribbble</a>
+                        <a href='https://github.com/gmartin1603'>GitHub</a> |{' '}
+                        <a href='https://www.linkedin.com/in/gmar1603/'>LinkedIn</a> <br />
+                        {/* <a href='https://behance.net'>Behance</a> |{' '}
+                        <a href='https://dribbble.com'>Dribbble</a> */}
                       </div>
                       <div className='slider-cta'>
                         <Link
@@ -79,7 +79,7 @@ export default function slider() {
                       <img
                         className='img-fluid'
                         src={sliderImg01}
-                        alt='David Rakosi'
+                        alt='George Martin'
                       />
                     </div>
                   </div>

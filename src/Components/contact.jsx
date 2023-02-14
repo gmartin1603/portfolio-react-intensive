@@ -2,9 +2,9 @@ import React from 'react'
 import {
   FaEnvelope,
   FaPhone,
-  FaSkype,
-  FaTwitter,
-  FaDribbble,
+  FaLinkedin,
+  FaInstagram,
+  FaGithub,
   FaFacebookF,
 } from 'react-icons/fa'
 import SectionTitle from './section_title'
@@ -30,9 +30,9 @@ export default function Contact() {
               </div>
               <a
                 className='btn-animation'
-                href='https://www.cleverprogrammer.com/'
+                href='mailto:george@martincustomcoding.com'
               >
-                david@gmail.com
+                Email
               </a>
             </div>
           </div>
@@ -45,9 +45,9 @@ export default function Contact() {
               </div>
               <a
                 className='btn-animation'
-                href='https://www.cleverprogrammer.com/'
+                href='tel:+1-319-981-0054'
               >
-                +1 (818) 2489 XX
+                +1 (319) 981 0054
               </a>
             </div>
           </div>
@@ -55,14 +55,14 @@ export default function Contact() {
             <div className='contact-item'>
               <div className='ct-item-icon float-left ml-30 mr-20'>
                 <i>
-                  <FaSkype />
+                  <FaGithub />
                 </i>
               </div>
               <a
                 className='btn-animation'
-                href='https://www.cleverprogrammer.com/'
+                href='https://github.com/gmartin1603'
               >
-                live:DavidRakosi
+                GitHub
               </a>
             </div>
           </div>
@@ -70,14 +70,14 @@ export default function Contact() {
             <div className='contact-item'>
               <div className='ct-item-icon float-left ml-30 mr-20'>
                 <i>
-                  <FaTwitter />
+                  <FaLinkedin />
                 </i>
               </div>
               <a
                 className='btn-animation'
-                href='https://www.cleverprogrammer.com/'
+                href='https://www.linkedin.com/in/gmar1603/'
               >
-                @DavidRakosi
+                LinkedIn
               </a>
             </div>
           </div>
@@ -85,14 +85,14 @@ export default function Contact() {
             <div className='contact-item'>
               <div className='ct-item-icon float-left ml-30 mr-20'>
                 <i>
-                  <FaDribbble />
+                  <FaInstagram />
                 </i>
               </div>
               <a
                 className='btn-animation'
-                href='https://www.cleverprogrammer.com/'
+                href='https://www.instagram.com/country_coder/'
               >
-                Cleverprogrammer
+                Instagram
               </a>
             </div>
           </div>
@@ -105,9 +105,9 @@ export default function Contact() {
               </div>
               <a
                 className='btn-animation'
-                href='https://www.facebook.com/david.rakosi'
+                href='https://www.facebook.com/george.martin.39904181'
               >
-                David Rakosi
+                Facebook
               </a>
             </div>
           </div>

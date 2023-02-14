@@ -14,7 +14,7 @@ export default function Services() {
         <SectionTitle
           title='SERVICES'
           subTitle='What I Am Great At'
-          desc='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia'
+          desc='Programming individual with hands-on experience in front and back-end coding. Capable of adding new features, fixing bugs, and revamping an existing website. Ability to collaborate & exceed business expectations focusing on creating outstanding value and satisfactory client experience.'
         />
       </div>
       <div className='container'>
@@ -27,7 +27,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>UI/UX Design</h4>
-                <p>129 projects</p>
+                <p>5+ projects</p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>Web Development</h4>
-                <p>221 projects</p>
+                <p>5+ projects</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>Web Research</h4>
-                <p>450 projects</p>
+                <p>0 projects</p>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Services() {
               </div>
               <div className='skill-project'>
                 <h4 className='mb-3'>Marketing</h4>
-                <p>331 projects</p>
+                <p>0 projects</p>
               </div>
             </div>
           </div>
@@ -76,27 +76,27 @@ export default function Services() {
               extraClass='mb-4 mb-md-0'
               title='Years of Experience'
               start={0}
-              end={9}
-              duration={5}
+              end={3}
+              duration={4}
             />
             <SingleCountdown
               extraClass='mb-4 mb-md-0'
               title='Satisfied Customers'
               start={0}
-              end={200}
+              end={2}
               duration={7}
             />
             <SingleCountdown
               extraClass='mb-4 mb-md-0'
               title='Design Items'
               start={0}
-              end={769}
+              end={250}
               duration={9}
             />
             <SingleCountdown
               title='Clients Served'
               start={0}
-              end={124}
+              end={1}
               duration={10}
             />
           </div>

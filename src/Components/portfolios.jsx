@@ -58,66 +58,73 @@ export default function Portfolios() {
                       WEB DEVELOPMENT
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
+                  {/* <Nav.Item>
                     <Nav.Link eventKey='web_research'>WEB RESEARCH</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
+                  </Nav.Item> */}
+                  {/* <Nav.Item>
                     <Nav.Link eventKey='marketing'>MARKETING</Nav.Link>
-                  </Nav.Item>
+                  </Nav.Item> */}
                   <div className='pofo-line'></div>
                 </Nav>
               </div>
               <Col sm={12}>
                 <Tab.Content>
                   <Tab.Pane eventKey='all'>
-                    <SRLWrapper>
+                    {/* <SRLWrapper> */}
                       <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
+                        <a href="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f">
+                          <p>Overtime Management - App Demo - Watch Video</p>
+                          <img style={{maxWidth:"350px"}} src="https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif" alt="Overtime Managment"/>
+                        </a>
+                        {/* <SinglePortfolio
                           portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
-                        />
+                          title='Overtime Management'
+                        /> */}
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Two'
+                          link="https://slack-clone-77bf7.web.app/"
+                          title='Slack Clone'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Three'
+                          link="https://clone-8b1b2.web.app/"
+                          title='Amazon Clone'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Four'
+                          link="https://chatgpt-clone-f112f.web.app/"
+                          title='ChatGPT Clone'
                         />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Five'
-                        />
+                        {/* <SinglePortfolio
+                          // portfolioImg={portfolioImg_06}
+                          title='Spotify Player'
+                        /> */}
                       </Masonry>
-                    </SRLWrapper>
+                    {/* </SRLWrapper> */}
                   </Tab.Pane>
                   <Tab.Pane eventKey='ux_ui'>
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Six'
+                          portfolioImg={portfolioImg_01}
+                          title='Overtime Management'
                         />
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Portfolio Title Seven'
+                          portfolioImg={portfolioImg_03}
+                          title='Slack Clone'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Eight'
+                          title='Amazon Clone'
                         />
                         <SinglePortfolio
-                          portfolioImg={portfolioImg_05}
-                          title='Portfolio Title Nine'
+                          portfolioImg={portfolioImg_02}
+                          title='ChatGPT Clone'
                         />
-                        <SinglePortfolio
+                        {/* <SinglePortfolio
                           portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Ten'
-                        />
+                          title='Spotify Player'
+                        /> */}
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane>
@@ -126,28 +133,28 @@ export default function Portfolios() {
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
                           portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
+                          title='Overtime Management'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
+                          title='Slack Clone'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
+                          title='Amazon Clone'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
+                          title='ChatGPT Clone'
                         />
-                        <SinglePortfolio
+                        {/* <SinglePortfolio
                           portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
-                        />
+                          title='Spotify Player'
+                        /> */}
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane>
-                  <Tab.Pane eventKey='web_research'>
+                  {/* <Tab.Pane eventKey='web_research'>
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
@@ -172,8 +179,8 @@ export default function Portfolios() {
                         />
                       </Masonry>
                     </SRLWrapper>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey='marketing'>
+                  </Tab.Pane> */}
+                  {/* <Tab.Pane eventKey='marketing'>
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
                         <SinglePortfolio
@@ -198,7 +205,7 @@ export default function Portfolios() {
                         />
                       </Masonry>
                     </SRLWrapper>
-                  </Tab.Pane>
+                  </Tab.Pane> */}
                 </Tab.Content>
               </Col>
             </Row>
