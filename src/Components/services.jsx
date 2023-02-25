@@ -50,8 +50,8 @@ export default function Services() {
                 <img className='d-none' src={servicIcon_03} alt='design' />
               </div>
               <div className='skill-project'>
-                <h4 className='mb-3'>Web Research</h4>
-                <p>0 projects</p>
+                <h4 className='mb-3'>Back End</h4>
+                <p>3+ projects</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Services() {
                 <img className='d-none' src={servicIcon_04} alt='design' />
               </div>
               <div className='skill-project'>
-                <h4 className='mb-3'>Marketing</h4>
+                <h4 className='mb-3'>Automation</h4>
                 <p>0 projects</p>
               </div>
             </div>

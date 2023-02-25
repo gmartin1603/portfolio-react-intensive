@@ -58,9 +58,9 @@ export default function Portfolios() {
                       WEB DEVELOPMENT
                     </Nav.Link>
                   </Nav.Item>
-                  {/* <Nav.Item>
-                    <Nav.Link eventKey='web_research'>WEB RESEARCH</Nav.Link>
-                  </Nav.Item> */}
+                  <Nav.Item>
+                    <Nav.Link eventKey='back_end'>BACK END</Nav.Link>
+                  </Nav.Item>
                   {/* <Nav.Item>
                     <Nav.Link eventKey='marketing'>MARKETING</Nav.Link>
                   </Nav.Item> */}
@@ -72,23 +72,50 @@ export default function Portfolios() {
                   <Tab.Pane eventKey='all'>
                     {/* <SRLWrapper> */}
                       <Masonry columnsCount={portfolioColumns}>
-                        <a href="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f">
-                          <p>Overtime Management - App Demo - Watch Video</p>
-                          <img style={{maxWidth:"350px"}} src="https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif" alt="Overtime Managment"/>
-                        </a>
-                        {/* <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Overtime Management'
-                        /> */}
+                        <SinglePortfolio
+                          portfolioImg={"https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"}
+                          link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                          title='Overtime Management - Video Demo'
+                        />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
                           link="https://slack-clone-77bf7.web.app/"
-                          title='Slack Clone'
+                          title='Slack Clone - Live App Link'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
                           link="https://clone-8b1b2.web.app/"
-                          title='Amazon Clone'
+                          title='Amazon Clone - Live App Link'
+                        />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_02}
+                          link="https://chatgpt-clone-f112f.web.app/"
+                          title='ChatGPT Clone - Live App Link'
+                        />
+                        {/* <SinglePortfolio
+                          // portfolioImg={portfolioImg_06}
+                          title='Spotify Player'
+                        /> */}
+                      </Masonry>
+                    {/* </SRLWrapper> */}
+                  </Tab.Pane>
+                  <Tab.Pane eventKey='ux_ui'>
+                    {/* <SRLWrapper> */}
+                      <Masonry columnsCount={portfolioColumns}>
+                      <SinglePortfolio
+                          portfolioImg={"https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"}
+                          link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                          title='Overtime Management - Video Demo'
+                        />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_03}
+                          link="https://slack-clone-77bf7.web.app/"
+                          title='Slack Clone - Live App Link'
+                        />
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_04}
+                          link="https://clone-8b1b2.web.app/"
+                          title='Amazon Clone - Live App Link'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
@@ -102,84 +129,61 @@ export default function Portfolios() {
                       </Masonry>
                     {/* </SRLWrapper> */}
                   </Tab.Pane>
-                  <Tab.Pane eventKey='ux_ui'>
-                    <SRLWrapper>
-                      <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Overtime Management'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Slack Clone'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_04}
-                          title='Amazon Clone'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_02}
-                          title='ChatGPT Clone'
-                        />
-                        {/* <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Spotify Player'
-                        /> */}
-                      </Masonry>
-                    </SRLWrapper>
-                  </Tab.Pane>
                   <Tab.Pane eventKey='web_development'>
-                    <SRLWrapper>
+                    {/* <SRLWrapper> */}
                       <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Overtime Management'
+                      <SinglePortfolio
+                          portfolioImg={"https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"}
+                          link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                          title='Overtime Management - Video Demo'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_03}
-                          title='Slack Clone'
+                          link="https://slack-clone-77bf7.web.app/"
+                          title='Slack Clone - Live App Link'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          title='Amazon Clone'
+                          link="https://clone-8b1b2.web.app/"
+                          title='Amazon Clone - Live App Link'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          title='ChatGPT Clone'
+                          link="https://chatgpt-clone-f112f.web.app/"
+                          title='ChatGPT Clone - Live App Link'
                         />
                         {/* <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
+                          // portfolioImg={portfolioImg_06}
                           title='Spotify Player'
                         /> */}
                       </Masonry>
-                    </SRLWrapper>
+                    {/* </SRLWrapper> */}
                   </Tab.Pane>
-                  {/* <Tab.Pane eventKey='web_research'>
-                    <SRLWrapper>
+                  <Tab.Pane eventKey='back_end'>
+                    {/* <SRLWrapper> */}
                       <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
+                      <SinglePortfolio
+                          portfolioImg={"https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"}
+                          link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                          title='Overtime Management - Video Demo'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
+                          link="https://clone-8b1b2.web.app/"
+                          title='Amazon Clone - Live App Link'
                         />
                         <SinglePortfolio
                           portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
+                          link="https://chatgpt-clone-f112f.web.app/"
+                          title='ChatGPT Clone - Live App Link'
                         />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
-                        />
+                        {/* <SinglePortfolio
+                          // portfolioImg={portfolioImg_06}
+                          title='Spotify Player'
+                        /> */}
                       </Masonry>
-                    </SRLWrapper>
-                  </Tab.Pane> */}
+                    {/* </SRLWrapper> */}
+                  </Tab.Pane>
                   {/* <Tab.Pane eventKey='marketing'>
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>

@@ -16,7 +16,7 @@ export default function Contact() {
         <SectionTitle
           title='CONTACT US'
           subTitle='Ways To Contact Me'
-          desc='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia'
+          desc=''
         />
       </div>
       <div className='container mt-45'>

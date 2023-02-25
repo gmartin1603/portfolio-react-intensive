@@ -24,6 +24,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "serve": "vite preview",
+    "deploy": "firebase deploy --only hosting",
     "lint": "eslint src/**/*.{js,jsx}",
     "lint:fix": "eslint src/**/*.{js,jsx} --fix"
   },
