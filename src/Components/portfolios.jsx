@@ -92,10 +92,11 @@ export default function Portfolios() {
                           link="https://chatgpt-clone-f112f.web.app/"
                           title='ChatGPT Clone - Live App Link'
                         />
-                        {/* <SinglePortfolio
-                          // portfolioImg={portfolioImg_06}
-                          title='Spotify Player'
-                        /> */}
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_05}
+                          link="https://rgwoi-fa2a9.web.app/"
+                          title='Affiliate Marketing Blog'
+                        />
                       </Masonry>
                     {/* </SRLWrapper> */}
                   </Tab.Pane>
@@ -122,10 +123,11 @@ export default function Portfolios() {
                           link="https://chatgpt-clone-f112f.web.app/"
                           title='ChatGPT Clone'
                         />
-                        {/* <SinglePortfolio
-                          // portfolioImg={portfolioImg_06}
-                          title='Spotify Player'
-                        /> */}
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_05}
+                          link="https://rgwoi-fa2a9.web.app/"
+                          title='Affiliate Marketing Blog'
+                        />
                       </Masonry>
                     {/* </SRLWrapper> */}
                   </Tab.Pane>
@@ -152,10 +154,11 @@ export default function Portfolios() {
                           link="https://chatgpt-clone-f112f.web.app/"
                           title='ChatGPT Clone - Live App Link'
                         />
-                        {/* <SinglePortfolio
-                          // portfolioImg={portfolioImg_06}
-                          title='Spotify Player'
-                        /> */}
+                        <SinglePortfolio
+                          portfolioImg={portfolioImg_05}
+                          link="https://rgwoi-fa2a9.web.app/"
+                          title='Affiliate Marketing Blog'
+                        />
                       </Masonry>
                     {/* </SRLWrapper> */}
                   </Tab.Pane>
