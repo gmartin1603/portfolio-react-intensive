@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
 import '../assets/css/slick.min.css'
-import sliderImg01 from '../assets/images/slider/person.png'
+import sliderImg02 from '../assets/images/slider/person-md.png'
 import {
   FaLongArrowAltLeft,
   FaLongArrowAltRight,
@@ -78,7 +78,7 @@ export default function slider() {
                     <div className='profile-pic'>
                       <img
                         className='img-fluid'
-                        src={sliderImg01}
+                        src={sliderImg02}
                         alt='George Martin'
                       />
                     </div>
