@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import servicIcon_01 from "../assets/images/icons/pen-yellow.png";
 import servicIcon_02 from "../assets/images/icons/code.png";
 import servicIcon_03 from "../assets/images/icons/search-yellow.png";
@@ -8,6 +8,10 @@ import servicIcon_06 from "../assets/images/icons/marketing-white.png";
 import SingleCountdown from "../SingleFeatures/SIngleCountdown";
 import SectionTitle from "./section_title";
 export default function Services() {
+  const career_length = new Date().getFullYear() - 2020;
+  const [satisfied_clients, setSatisfiedClients] = useState(4);
+  const [design_items, setDesignItems] = useState(450);
+  const [clients_served, setClientsServed] = useState(10);
   return (
     <div className="services-area section-ptb bgs" id="services">
       <div className="container">
@@ -27,7 +31,7 @@ export default function Services() {
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">UI/UX Design</h4>
-                <p>6+ projects</p>
+                <p>10+ projects</p>
               </div>
             </div>
           </div>
@@ -39,7 +43,7 @@ export default function Services() {
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">Web Development</h4>
-                <p>6+ projects</p>
+                <p>10+ projects</p>
               </div>
             </div>
           </div>
@@ -51,7 +55,7 @@ export default function Services() {
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">Back End</h4>
-                <p>4+ projects</p>
+                <p>8+ projects</p>
               </div>
             </div>
           </div>
@@ -63,7 +67,7 @@ export default function Services() {
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">Automation</h4>
-                <p>0 projects</p>
+                <p>3+ projects</p>
               </div>
             </div>
           </div>
@@ -71,33 +75,27 @@ export default function Services() {
       </div>
       <div className="counter-area mt-45">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-around">
             <SingleCountdown
               extraClass="mb-4 mb-md-0"
               title="Years of Experience"
               start={0}
-              end={3}
+              end={career_length}
               duration={4}
             />
             <SingleCountdown
               extraClass="mb-4 mb-md-0"
-              title="Satisfied Customers"
+              title="Clients Served"
               start={0}
-              end={2}
+              end={satisfied_clients}
               duration={7}
             />
             <SingleCountdown
               extraClass="mb-4 mb-md-0"
               title="Design Items"
               start={0}
-              end={450}
-              duration={9}
-            />
-            <SingleCountdown
-              title="Clients Served"
-              start={0}
-              end={2}
-              duration={10}
+              end={design_items}
+              duration={Math.floor(design_items / 30)}
             />
           </div>
         </div>

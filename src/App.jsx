@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Home from './Pages/Home'
+import GeorgeHome from './Pages/GeorgeHome'
 import FourZeroFour from './Pages/FourZeroFour'
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home />
+          </Route>
+
+          <Route path='/george_home'>
+            <GeorgeHome />
           </Route>
 
           <Route path='*'>

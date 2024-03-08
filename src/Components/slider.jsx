@@ -48,14 +48,14 @@ export default function slider() {
                   <div className='col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5'>
                     <div className='slider-left'>
                       <div className='name'>
-                        <h1>
-                          George <br /> Martin<span className='pc'>.</span>
-                        </h1>
+                        <h2>
+                          George Martin<span className='pc'>.</span>
+                        </h2>
                       </div>
-                      <div className='dash'></div>
+                      <div className='dash' style={{marginTop: 0}}/>
                       <div className='social-links mb-40'>
-                        <a href='https://github.com/gmartin1603'>GitHub</a> |{' '}
-                        <a href='https://www.linkedin.com/in/gmar1603/'>LinkedIn</a> <br />
+                        <a target='_blank' rel='noopener noreferrer' href='https://github.com/gmartin1603'>GitHub</a> |{' '}
+                        <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/gmar1603/'>LinkedIn</a> <br />
                         {/* <a href='https://behance.net'>Behance</a> |{' '}
                         <a href='https://dribbble.com'>Dribbble</a> */}
                       </div>
@@ -88,9 +88,11 @@ export default function slider() {
                       <div className='section-title'>
                         <h3 className='section-name pc'>INTRODUCTION</h3>
                         <h2>
+                          Entrepenur,
+                          <br />
                           UI/UX Designer,
                           <br />
-                          Full Stack Web <br /> Developer
+                          Full Stack Engineer
                         </h2>
                         <p className='pr-20'>
                           Welcome to my developer portfolio! I am a highly

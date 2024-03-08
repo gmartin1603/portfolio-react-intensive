@@ -15,13 +15,12 @@ export default function Contact() {
     <div className="contact-area section-ptb" id="contact">
       <div className="container">
         <SectionTitle
-          title="CONTACT US"
           subTitle="Ways To Contact Me"
-          desc=""
+          desc="I am always excited to discuss product design work or partnerships. Don't hesitate to reach out to me. I will get back to you as soon as possible."
         />
       </div>
       <div className="container mt-45">
-        <div className="row md-justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 mb-30">
             <div className="contact-item">
               <div className="ct-item-icon float-left ml-30 mr-20">
@@ -79,7 +78,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mb-30 mb-lg-0">
+          {/* <div className="col-lg-4 col-md-6 mb-30 mb-lg-0">
             <div className="contact-item">
               <div className="ct-item-icon float-left ml-30 mr-20">
                 <i>
@@ -93,7 +92,7 @@ export default function Contact() {
                 Instagram
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4 col-md-6 mb-30 mb-lg-0">
             <div className="contact-item">
               <div className="ct-item-icon float-left ml-30 mr-20">

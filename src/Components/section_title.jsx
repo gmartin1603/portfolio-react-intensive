@@ -7,7 +7,8 @@ export default function SectionTitle(props) {
                 <div className="section-title text-center">
                     <h3 className="section-name pc">{title}</h3>
                     <h2>{subTitle}</h2>
-                    <p>{desc}</p>
+                    <div className="title-underlined"/>
+                    <p className='text-semi-bold'>{desc}</p>
                 </div>
             </div>
         </div>

@@ -69,6 +69,22 @@ a:hover,
   text-decoration: none;
 }
 
+.text-semi-bold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-extra-bold {
+  font-weight: 800;
+}
+
+.text-center {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -235,6 +251,16 @@ p {
 .btn-animation:hover::after{
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.title-underlined {  
+  position: relative;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #e4aa48;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .section-ptb {

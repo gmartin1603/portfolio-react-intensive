@@ -1,15 +1,18 @@
 import React from "react";
 import logoImg from "../assets/images/logo/logo.png";
+import logo from "../assets/images/logo/logo.png";
+import full_logo from "../assets/images/logo/Logo_1.png";
 import "../assets/css/slick.min.css";
 
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
 import {
   FaGithub,
   FaInstagram,
+  FaLinkedin,
   FaLongArrowAltDown,
   FaYoutube,
 } from "react-icons/fa";
-import { FaBars, FaSkype, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Link as ReactLink } from "react-router-dom";
 export default function Header() {
@@ -28,9 +31,14 @@ export default function Header() {
               <Navbar collapseOnSelect expand="lg" className="p-0">
                 <div className="logo-area">
                   <ReactLink to="/" className="nav-link">
-                    <div className="name">
+                    <div className="name d-flex align-items-center">
+                      <img 
+                        src={logo}
+                        style={{ width: "100px", marginRight: "10px"}} 
+                        alt="Martin Solutions LLC" 
+                      />
                       <h1>
-                        GM<span className="pc">.</span>
+                        Martin Solutions LLC<span className="pc">.</span>
                       </h1>
                     </div>
                   </ReactLink>
@@ -72,23 +80,34 @@ export default function Header() {
                     </Link>
                     <ul className="mb-0 menu-social pl-15">
                       <li className="list-inline-item menu-border">
-                        <a href="https://github.com/gmartin1603">
+                        <a 
+                          href="https://github.com/gmartin1603"
+                          rel="noopener noreferrer" 
+                          target="_blank"
+                        >
                           <i>
                             <FaGithub />
                           </i>
                         </a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="https://www.youtube.com/channel/UCo_vZdX1o12AznKQQbAxZcA">
+                        <a 
+                          href="https://www.youtube.com/channel/UCo_vZdX1o12AznKQQbAxZcA"
+                          rel="noopener noreferrer" 
+                          target="_blank">
                           <i>
                             <FaYoutube />
                           </i>
                         </a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="https://www.instagram.com/country_coder/">
+                        <a 
+                          href="https://www.linkedin.com/in/gmar1603/" 
+                          rel="noopener noreferrer" 
+                          target="_blank"
+                        >
                           <i>
-                            <FaInstagram />
+                            <FaLinkedin />
                           </i>
                         </a>
                       </li>
