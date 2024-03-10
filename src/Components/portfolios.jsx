@@ -40,7 +40,7 @@ export default function Portfolios() {
         <div className="container">
           <SectionTitle
             title="PORTFOLIO"
-            subTitle="My Masterpiece Collection"
+            subTitle="Masterpiece Collection"
             desc="Welcome to my project section, where you can find a selection of my past and current software development projects. I am passionate about creating high-quality, innovative solutions for a variety of industries and am always looking for new challenges to tackle."
           />
           <Tab.Container defaultActiveKey="all">
@@ -76,34 +76,35 @@ export default function Portfolios() {
                         portfolioImg={
                           "https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"
                         }
-                        link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
-                        title="Overtime Management - Video Demo"
+                        // link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                        video="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+                        title="Overtime Management"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_06}
                         link="https://farm-report-next.vercel.app/"
                         video="https://youtu.be/366TNdNfPjw"
-                        title="Farm Report - Live App Link"
+                        title="Farm Report"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_03}
                         link="https://slack-clone-77bf7.web.app/"
-                        title="Slack Clone - Live App Link"
+                        title="Slack Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_04}
                         link="https://clone-8b1b2.web.app/"
-                        title="Amazon Clone - Live App Link"
+                        title="Amazon Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_02}
                         link="https://chatgpt-clone-f112f.web.app/"
-                        title="ChatGPT Clone - Live App Link"
+                        title="ChatGPT Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_05}
                         link="https://rgwoi-fa2a9.web.app/"
-                        title="Affiliate Marketing Blog - Live App Link"
+                        title="Affiliate Marketing Blog"
                       />
                     </Masonry>
                     {/* </SRLWrapper> */}
@@ -116,17 +117,17 @@ export default function Portfolios() {
                           "https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"
                         }
                         link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
-                        title="Overtime Management - Video Demo"
+                        title="Overtime Management"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_03}
                         link="https://slack-clone-77bf7.web.app/"
-                        title="Slack Clone - Live App Link"
+                        title="Slack Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_04}
                         link="https://clone-8b1b2.web.app/"
-                        title="Amazon Clone - Live App Link"
+                        title="Amazon Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_02}
@@ -142,7 +143,7 @@ export default function Portfolios() {
                         portfolioImg={portfolioImg_06}
                         link="https://farm-report-next.vercel.app/"
                         video="https://youtu.be/366TNdNfPjw"
-                        title="Farm Report - Live App Link"
+                        title="Farm Report"
                       />
                     </Masonry>
                     {/* </SRLWrapper> */}
@@ -155,22 +156,22 @@ export default function Portfolios() {
                           "https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"
                         }
                         link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
-                        title="Overtime Management - Video Demo"
+                        title="Overtime Management"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_03}
                         link="https://slack-clone-77bf7.web.app/"
-                        title="Slack Clone - Live App Link"
+                        title="Slack Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_04}
                         link="https://clone-8b1b2.web.app/"
-                        title="Amazon Clone - Live App Link"
+                        title="Amazon Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_02}
                         link="https://chatgpt-clone-f112f.web.app/"
-                        title="ChatGPT Clone - Live App Link"
+                        title="ChatGPT Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_05}
@@ -181,7 +182,7 @@ export default function Portfolios() {
                         portfolioImg={portfolioImg_06}
                         link="https://farm-report-next.vercel.app/"
                         video="https://youtu.be/366TNdNfPjw"
-                        title="Farm Report - Live App Link"
+                        title="Farm Report"
                       />
                     </Masonry>
                     {/* </SRLWrapper> */}
@@ -194,23 +195,23 @@ export default function Portfolios() {
                           "https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif"
                         }
                         link="https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
-                        title="Overtime Management - Video Demo"
+                        title="Overtime Management"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_04}
                         link="https://clone-8b1b2.web.app/"
-                        title="Amazon Clone - Live App Link"
+                        title="Amazon Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_02}
                         link="https://chatgpt-clone-f112f.web.app/"
-                        title="ChatGPT Clone - Live App Link"
+                        title="ChatGPT Clone"
                       />
                       <SinglePortfolio
                         portfolioImg={portfolioImg_06}
                         link="https://farm-report-next.vercel.app/"
                         video="https://youtu.be/366TNdNfPjw"
-                        title="Farm Report - Live App Link"
+                        title="Farm Report"
                       />
                     </Masonry>
                     {/* </SRLWrapper> */}

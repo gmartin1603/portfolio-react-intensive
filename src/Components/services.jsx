@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import servicIcon_01 from "../assets/images/icons/pen-yellow.png";
 import servicIcon_02 from "../assets/images/icons/code.png";
 import servicIcon_03 from "../assets/images/icons/search-yellow.png";
@@ -9,9 +9,28 @@ import SingleCountdown from "../SingleFeatures/SIngleCountdown";
 import SectionTitle from "./section_title";
 export default function Services() {
   const career_length = new Date().getFullYear() - 2020;
-  const [satisfied_clients, setSatisfiedClients] = useState(4);
-  const [design_items, setDesignItems] = useState(450);
-  const [clients_served, setClientsServed] = useState(10);
+  const [satisfied_clients, setSatisfiedClients] = useState(0);
+  const [design_items, setDesignItems] = useState(0);
+
+  const getData = async () => {
+    let res = {};
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        res = {
+          satisfied_clients: 4,
+          design_items: 1200,
+        };
+        resolve(res);
+      }, 1000);
+    });
+  }
+
+  useEffect(() => {
+    getData().then((res) => {
+      setSatisfiedClients(res.satisfied_clients);
+      setDesignItems(res.design_items);
+    });
+  }, []);
   return (
     <div className="services-area section-ptb bgs" id="services">
       <div className="container">

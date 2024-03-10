@@ -661,6 +661,10 @@ p {
   clear: both;
 }
 
+.project-modal {
+  background-color: #434346;
+}
+
 
 /* ------- 7. Blog Area -------- */
 
@@ -814,7 +818,7 @@ p {
 }
 .ct-item-icon i {
   font-size: 23px;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 .contact-item a {
