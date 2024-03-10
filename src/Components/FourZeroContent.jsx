@@ -9,14 +9,14 @@ export default function FourZeroContent() {
                     <div className="col-lg-10 mx-auto text-center">
                         <div className="error-msg-wrapper">
                             <div className="error-msg">
-                                <h1>4 <span className="exc-icon">
-                                    <i><FaExclamationTriangle/></i>
-                                    </span> 0
-                                </h1>
-                                <h5>Opps! Page is not found</h5>
-                                <div className="back-button mt-4">
-                                    <a href="/" className="ct-btn">Go to Home</a>
-                                </div>
+                              <span className="exc-icon">
+                                <i><FaExclamationTriangle/></i>
+                              </span> 
+                              <h1>404</h1>
+                              <h5>Opps! Page is not found</h5>
+                              <div className="back-button mt-4">
+                                  <a href="/" className="ct-btn">Go to Home</a>
+                              </div>
                             </div>
                         </div>
                     </div>
