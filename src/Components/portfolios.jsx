@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Col, Row, Nav, Tab } from "react-bootstrap";
 import Masonry from "react-responsive-masonry";
 import SinglePortfolio from "../SingleFeatures/SinglePortfolio";
-import portfolioImg_01 from "../assets/images/portfolio/1.png";
 import portfolioImg_02 from "../assets/images/portfolio/2.png";
 import portfolioImg_03 from "../assets/images/portfolio/3.png";
 import portfolioImg_04 from "../assets/images/portfolio/4.png";
@@ -10,6 +9,7 @@ import portfolioImg_05 from "../assets/images/portfolio/5.png";
 import portfolioImg_06 from "../assets/images/portfolio/6.png";
 import { SRLWrapper } from "simple-react-lightbox";
 import SectionTitle from "./section_title";
+import PROJECTS from "../assets/data/projects.json";
 
 export default function Portfolios() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -32,6 +32,7 @@ export default function Portfolios() {
 
   useEffect(() => {
     controlColumns();
+    console.log(PROJECTS)
   }, [windowWidth]);
 
   return (
@@ -62,7 +63,7 @@ export default function Portfolios() {
                     <Nav.Link eventKey="back_end">BACK END</Nav.Link>
                   </Nav.Item>
                   {/* <Nav.Item>
-                    <Nav.Link eventKey='marketing'>MARKETING</Nav.Link>
+                    <Nav.Link eventKey='marketing'>MAPPED</Nav.Link>
                   </Nav.Item> */}
                   <div className="pofo-line"></div>
                 </Nav>
@@ -219,26 +220,19 @@ export default function Portfolios() {
                   {/* <Tab.Pane eventKey='marketing'>
                     <SRLWrapper>
                       <Masonry columnsCount={portfolioColumns}>
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_01}
-                          title='Portfolio Title One'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_03}
-                          title='Portfolio Title Three'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_04}
-                          title='Portfolio Title Four'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_02}
-                          title='Portfolio Title Five'
-                        />
-                        <SinglePortfolio
-                          portfolioImg={portfolioImg_06}
-                          title='Portfolio Title Six'
-                        />
+                        {PROJECTS.map((project, index) => {
+                          
+                          return (
+                            <SinglePortfolio
+                              key={index}
+                              portfolioImg={project.cover}
+                              link={project.link}
+                              title={project.title}
+                              video={project.video}
+                            />
+                          );
+                          })
+                        }
                       </Masonry>
                     </SRLWrapper>
                   </Tab.Pane> */}

@@ -17,8 +17,8 @@ export default function SinglePortfolio(props) {
 	return (
 		<div className="grid">
 			<div className="col px-sm-2 mb-3">
-				<a
-					href={link}
+				{/* <a
+					href={detailsPage ? detailsPage : "/"}
 					style={{
 						width: "100%",
 						display: "flex",
@@ -38,20 +38,22 @@ export default function SinglePortfolio(props) {
 					>
 						{title}
 					</p>
-				</a>
+				</a> */}
+        <h4 className="text-center">{title}</h4>
 				<div className="portfolio-wrapper">
 					<div className="portfolio-thumb">
 						<img src={portfolioImg} style={{ height: "200px" }} alt={title} />
 					</div>
 					<div
 						className="overlay"
-						style={{ height: "60%", textAlign: "center" }}
+						style={{ height: "60%", textAlign: "center", cursor: "pointer" }}
 						onClick={() => setShow(true)}
 					>
 						<img className="d-none" src={portfolioImg} alt={title} />
-						<i>
-							<FiPlus />
-							<p>Click to enlarge</p>
+						<i style={{fontSize: "2rem", width: "90%"}}>
+							{/* <FiPlus /> */}
+              <FaInfoCircle />
+							<p>Click here for details</p>
 						</i>
 					</div>
 					{/* <a href={portfolioImg} data-attribute="SRL">
@@ -76,7 +78,7 @@ export default function SinglePortfolio(props) {
 				keyboard={false}
 				size="lg"
 			>
-				<span className="project-modal">
+				<span style={{backgroundColor: "#434346"}}>
 					<Modal.Header>
 						<Modal.Title style={{ color: "white" }}>{title}</Modal.Title>
 					</Modal.Header>

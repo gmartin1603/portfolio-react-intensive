@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Overtime Management",
+    "description": "Overtime Management is a system that allows employees to request overtime and managers to approve or deny those requests. The system also allows managers to track the amount of overtime worked by each employee and to generate reports on overtime worked by employees.",
+    "status": "Supporting",
+    "cover": "https://cdn.loom.com/sessions/thumbnails/2dc3dcef23944e8ea972e42b229cc98f-1676224245435.gif",
+    "link": "",
+    "tags": ["ui/ux", "web", "backend"],
+    "video": "https://www.loom.com/share/2dc3dcef23944e8ea972e42b229cc98f"
+  },
+  {
+    "id": 2,
+    "title": "Farm Report",
+    "description": "Farm Report is a system that allows farmers to track the amount of produce they harvest and the amount of money they make from selling their produce. The system also allows farmers to generate reports on the amount of produce they harvest and the amount of money they make from selling their produce.",
+    "status": "Supporting",
+    "cover": "src/assets/images/portfolio/farm-report.png",
+    "images": [],
+    "link": "https://farm-report-next.vercel.app/",
+    "tags": ["ui/ux", "web", "backend"],
+    "video": "https://youtu.be/366TNdNfPjw"
+  }
+]
